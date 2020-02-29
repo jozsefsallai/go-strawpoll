@@ -2,7 +2,7 @@
 // strawpoll.me.
 //
 // To fetch a poll:
-//   func main() {
+// 	func main() {
 // 		poll, err := strawpoll.Get(1)
 // 		if err != nil {
 // 			panic(err)

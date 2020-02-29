@@ -1,6 +1,6 @@
 // Package strawpoll provides an easy way to fetch and create polls from/to
 // strawpoll.me.
-
+//
 // To fetch a poll:
 //   func main() {
 // 		poll, err := strawpoll.Get(1)
@@ -10,7 +10,7 @@
 // 		fmt.Println(poll.Title)
 // 	}
 // (where `1` is the ID of the poll on strawpoll.me)
-
+//
 // To create a poll:
 // 	func main() {
 // 		poll, err := strawpoll.Create(
@@ -20,14 +20,13 @@
 // 			strawpoll.DupcheckNormal, // duplication checking level
 // 			false, // require CAPTCHA
 // 		)
-
+//
 // 		if err != nil {
 // 			panic(err)
 // 		}
-
+//
 // 		fmt.Println(poll.ID)
 // 	}
-
 package strawpoll
 
 import (

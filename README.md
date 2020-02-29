@@ -1,6 +1,6 @@
 # go-strawpoll
 
-go-strawpoll provides an easy way to fetch and create polls from/tostrawpoll.me.
+go-strawpoll provides an easy way to fetch and create polls from/to strawpoll.me.
 
 ## Getting Started
 
